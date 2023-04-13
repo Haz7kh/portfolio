@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  /* this make the box not include extra size when adding "padding" */
+  box-sizing: border-box;
+}
+
+:root {
+  --page-padding: 1.2rem 10rem;
+  --gap: 1rem;
+
+  /* colors */
+  --light-shades: #f3f3f4;
+  --main-brand: #467a7d;
+  --dark-accent: #21282f;
+  --dark-shades: #060708;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --page-padding: 1rem 2rem;
+  }
+  .navbar-container {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+  .navbar-links-container {
+    flex-direction: column;
+  }
+}

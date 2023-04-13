@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Landing, Navbar } from "./screens";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+      <Landing />
+    </div>
+  );
 }
 
 export default App;
