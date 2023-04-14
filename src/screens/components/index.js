@@ -1,3 +1,4 @@
 import AnimatedBg from "./AnimatedBg/AnimatedBg";
+import Typewritter from "./Typewritter/Typewritter";
 
-export { AnimatedBg };
+export { AnimatedBg, Typewritter };

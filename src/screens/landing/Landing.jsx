@@ -1,11 +1,27 @@
 import React from "react";
 import "./Landing.css";
-import AnimatedBg from "../components/AnimatedBg/AnimatedBg";
+import { Typewritter, AnimatedBg } from "../components";
+
+let msgArray = [
+  " ",
+  " An app developer (Android, IOS)",
+  "Also known as an",
+  " Front-end developer",
+  "Back-end developer",
+  "UX/UI designer",
+  " WordPress Web-Design",
+  " ",
+];
 
 const Landing = () => {
   return (
     <div>
-      <AnimatedBg></AnimatedBg>
+      <AnimatedBg>
+        <div className="landing-type">
+          <div>What Am I?</div>
+          <Typewritter data={msgArray} />
+        </div>
+      </AnimatedBg>
     </div>
   );
 };
