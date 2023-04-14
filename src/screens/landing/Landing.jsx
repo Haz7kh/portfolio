@@ -5,7 +5,7 @@ import AnimatedBg from "../components/AnimatedBg/AnimatedBg";
 const Landing = () => {
   return (
     <div>
-      <AnimatedBg>hhhhhhhhhhhh</AnimatedBg>
+      <AnimatedBg></AnimatedBg>
     </div>
   );
 };

@@ -21,8 +21,8 @@ p {
   /* colors */
   --light-shades: #f3f3f4;
   --main-brand: #467a7d;
-  --dark-accent: #21282f;
-  --dark-shades: #060708;
+  --dark-accent: #333;
+  --dark-shades: #232824;
 }
 
 @media screen and (max-width: 768px) {
