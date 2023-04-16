@@ -9,7 +9,7 @@ let msgArray = [
   " Front-end developer",
   "Back-end developer",
   "UX/UI designer",
-  " WordPress Web-Design",
+  " WordPress Web-Designer",
   " ",
 ];
 
