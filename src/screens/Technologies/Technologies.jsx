@@ -4,7 +4,7 @@ import { techs } from "./techs";
 const Technologies = () => {
   const tecnolgisList = techs.map((tech, index) => {
     return (
-      <div className="tech-frames">
+      <div className="tech-frames bg-animation" key={index}>
         <img src={tech.image} alt={tech.name} />
         <h3>{tech.name}</h3>
       </div>
