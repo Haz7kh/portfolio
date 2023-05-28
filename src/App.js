@@ -1,5 +1,12 @@
 import "./App.css";
-import { AboutMe, Landing, Navbar, Portfolio, Technologies } from "./screens";
+import {
+  AboutMe,
+  Contact,
+  Landing,
+  Navbar,
+  Portfolio,
+  Technologies,
+} from "./screens";
 
 function App() {
   return (
@@ -9,6 +16,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <Portfolio />
+      <Contact />
     </div>
   );
 }
