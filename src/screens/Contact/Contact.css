@@ -1,7 +1,8 @@
 .contact-container {
   display: flex;
   background-color: var(--main-brand);
-  padding: 5px;
+  padding: var(--padding);
+  justify-content: space-evenly;
   color: var(--light-shades);
   letter-spacing: 1px;
   font-size: 1.2rem;

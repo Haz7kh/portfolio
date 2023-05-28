@@ -8,12 +8,14 @@ const AboutMe = () => {
       <div>
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
-          reprehenderit repudiandae fugit, minus, consequuntur iste vitae nihil
-          molestias rerum saepe laboriosam, eum ipsum? Beatae at a aut
-          aspernatur libero quibusdam iusto aperiam delectus, distinctio earum
-          voluptate, ex tempore! Pariatur mollitia illum accusamus tempore
-          dolore quibusdam culpa illo porro debitis tenetur.
+          Jag är en Junior Webbutvecklare med erfarenhet av både backend- och
+          frontend-utveckling. Jag är särskilt kunnig inom WordPress och har
+          omfattande kunskap om programmeringsspråk som HTML5,
+          JavaScript(React/React native), CSS, NodeJS, Bootstrap, React och
+          MongoDB. Jag är också en Android- utvecklare med erfarenhet av Kotlin.
+          Utöver mina utvecklingsfärdigheter är jag också en erfaren grafisk
+          formgivare med en stark känsla för design och en djup förståelse för
+          färgteori, typografi och layout.
         </p>
       </div>
     </div>
