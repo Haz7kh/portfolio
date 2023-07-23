@@ -1,15 +1,36 @@
-.aboutme-container {
-  padding: var(--page-padding);
+.about-me-container {
   display: flex;
-  gap: var(--gap);
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #555151;
 }
 
-.aboutme-container img {
-  max-width: 50%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.profile-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-content {
+  flex: 1;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #555151; /* Light background color to create contrast */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: rgb(235, 235, 235);
+}
+
+.about-me-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: aliceblue;
 }
